@@ -1,0 +1,15 @@
+
+
+<div id="table">
+     <ol>
+     <% @articles.each do |row| %>
+     <li><a href= '<%= row["url"] %>'> <%= row["url"] %></a><%=row["title"]%><br> <%= row["description"] %>
+      </li>
+      <%end%>
+      </div>
+      <div id="separator"></div>
+
+
+
+
+

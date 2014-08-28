@@ -1,0 +1,148 @@
+#wrapper{
+  max-width: 85%;
+  margin: 0 auto;
+  background: #f6f6ef;
+  max-height: 100%;
+  font-family: Verdana,Geneva,sans-serif;
+}
+
+#header {
+  background: #ff6600;
+  margin: 3px 3px 0px 1px;
+}
+
+#logo {
+  border: 1px solid white;
+  margin: 3px 0px -2px 2px;
+}
+
+#hacker_news {
+  font-size: 16px;
+}
+
+.nav {
+  font-size: 12px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 0 10px;
+  margin: 0 0;
+}
+
+.nav li{
+  display: inline-block;
+  color: white;
+}
+
+#login {
+  font-size: 12px;
+  float: right;
+  position: relative;
+  top: 8px;
+  right: 5px;
+}
+
+#table{
+  font-size: 10pt;
+  position: relative;
+  top: 5px;
+}
+
+#table .list {
+  position: relative;
+  left: 10px;
+  font-size: 12px;
+  position: relative;
+  color: #828282;
+}
+
+#table .list2 {
+  position: relative;
+  left: 2px;
+  font-size: 12px;
+  position: relative;
+  color: #828282;
+}
+
+#table .title{
+  font-size: 12px;
+  position: relative;
+  left: 10px;
+}
+
+#table .title2{
+  font-size: 12px;
+  position: relative;
+  left: 2px;
+}
+
+#table .link{
+  font-size: 8px;
+  position: relative;
+  left: 10px;
+  color: #828282;
+}
+
+#table .link2{
+  font-size: 8px;
+  position: relative;
+  left: 2px;
+  color: #828282;
+}
+
+#table .comment{
+  font-size: 8px;
+  position: relative;
+  left: 40px;
+  top: -5px;
+  color: #828282;
+}
+
+#separator {
+  background: #ff6600;
+  padding: 1px 1px;
+  margin: 20px 0 20px 0;
+}
+
+.footer {
+  font-size: 10px;
+  text-decoration: none;
+  color: #828282;
+  text-align: center;
+}
+
+.footer li{
+  display: inline-block;
+}
+
+#commentlist .title{
+  font-size: 12px;
+  position: relative;
+  color: #828282;
+}
+
+#commentlist .comment{
+  font-size: 10px;
+}
+
+#commentlist .reply{
+  font-size: 8px;
+}
+
+ul.comment {
+  list-style-image: url('https://news.ycombinator.com/grayarrow.gif');
+}
+
+a.black:link {text-decoration: none; color: black}
+a.black:visited {text-decoration: none; color: black}
+a.black:active {text-decoration: none; color: black}
+a.black:hover {text-decoration: none; color: black}
+
+a.white:link {text-decoration: none; color: white}
+a.white:visited {text-decoration: none; color: white}
+a.white:active {text-decoration: none; color: white}
+a.white:hover {text-decoration: none; color: white}
+
+a.gray:link {text-decoration: none; color: #828282}
+a.gray:visited {text-decoration: none; color: #828282}
+a.gray:active {text-decoration: none; color: #828282}
+a.gray:hover {text-decoration: none; color: #828282}
